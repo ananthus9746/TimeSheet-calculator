@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+input{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(217, 240, 170);
+}
+
+.container {
+    width:1000px;
+    position:relative;
+    margin: auto;
+    background-color:blueviolet; 
+    margin-top: 70px;
+
+}
