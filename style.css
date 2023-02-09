@@ -1,19 +1,61 @@
 *{
     font-family: sans-serif;
     margin:0;
-    padding:0;
+}
+body{
+    background-color: rgba(243, 243, 243, 0.493); 
+    
 }
 input{
     width: 100px;
-    height: 25px;
-    background-color: rgb(217, 240, 170);
+    height: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color:rgb(49, 47, 47);
+}
+.btn{
+padding: 10px;
+background-color: inherit;
+border: 1px solid gray;
+color: white;
+font-weight: 500;
+border-radius: 5px;
+cursor: pointer;
+transition: all .3s ease;
+}
+.btn:hover{
+    background-color: rgba(164, 193, 248, 0.102);
+}
+.btn-green{
+    background-color: rgba(129, 238, 133, 0.553);
+    color: white;
+}
+.person-name{
+    color: white;
+    margin-bottom: 20px;
 }
 
 .container {
     width:1000px;
     position:relative;
     margin: auto;
-    background-color:blueviolet; 
-    margin-top: 70px;
+    background: rgb(70,9,121);
+    background: linear-gradient(191deg, rgba(5, 9, 119, 0.803) 10%, rgba(116, 75, 172, 0.796) 86%);    margin-top: 70px;
+    padding: 1rem;
+    padding-left: 6rem;
+    padding-top: 6rem;
+    border-radius: 1rem;
+    border:1px solid gray ;
+    box-shadow: 2px 5px 30px 1px rgba(0, 0, 0.1);
+}
 
+section,form{
+    display: flex;
+    gap: 15px;
+}
+section.tableBody{
+    margin-top: 1rem;
+    flex-direction: column;
 }
